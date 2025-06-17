@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 20px;
   background: linear-gradient(135deg, red, orange, green, purple);
-  background-size: 300% 300%;
-  animation: vibrantMove 10s ease-in-out infinite;
+  background-size: 400% 400%;
+  animation: vibrantMove 12s ease-in-out infinite;
 }
 
 @keyframes vibrantMove {
@@ -95,5 +95,5 @@ form {
 }
 
 .delete-btn i {
-  pointer-events: none; /* So clicking icon counts as clicking the button */
+  pointer-events: none;
 }
